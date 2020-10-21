@@ -1,7 +1,11 @@
 <style>
-
+.value {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 </style>
-
 
 # v-response-tooltip 提示框
 
@@ -43,6 +47,6 @@
 ![ProgramProject](./images/2.png)
 
 ### Props
-| 参数      | 说明                                                         | 类型            | 可选值 | 默认值                                           |
-| --------- | ------------------------------------------------------------ | --------------- | ------ | ------------------------------------------------ |
-| over-width-display      | 超过显示宽度时是否支持tooltip显示（需要获取元素宽度，故不支持行内样式），该设置如果为false时，按照所有el-tooltip配置                                                     | Boolean          | true/false    | true|
+| 参数      | 说明                                                | 类型            | 可选值 | 默认值                                           |
+| --------- | --------------------------------------------------- | --------------- | ------ | ---- |
+| over-width-display | 超过显示宽度时是否支持tooltip显示（需要获取元素宽度，故不支持行内样式），该设置如果为false时，按照所有el-tooltip配置                                                     | Boolean          | true/false    | true|
