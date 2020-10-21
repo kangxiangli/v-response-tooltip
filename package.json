@@ -31,9 +31,8 @@
   ],
   "keywords": [
     "vue",
-    "select",
-    "el-tree",
-    "option",
+    "el-tooltip",
+    "element",
     "components"
   ],
   "devDependencies": {

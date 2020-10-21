@@ -9,7 +9,7 @@
 </template>
 <script>
 export default {
-  name: 'idss-tooltip',
+  name: 'v-response-tooltip',
   props: {
     // 超过显示宽度时是否支持tooltip显示（需要获取元素宽度，故不支持行内样式）
     overWidthDisplay: {
