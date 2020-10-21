@@ -5181,6 +5181,14 @@ uuid@^3.0.1:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
+v-select-tree@^0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/v-select-tree/-/v-select-tree-0.1.9.tgz#697c19f92e3df68a33fef7a8e791abf040858077"
+  integrity sha512-BD4ulnvJAFbl4t9RSU2Aau7QGzklL6t8Z4/xITDnzllZRni5JcamlP3txRQxiow+RlOQmWpS0fy9EdMvMHMwkA==
+  dependencies:
+    element-ui "^2.9.1"
+    vue "^2.5.11"
+
 validate-npm-package-license@^3.0.1:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz#fc91f6b9c7ba15c857f4cb2c5defeec39d4f410a"

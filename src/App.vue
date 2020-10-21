@@ -29,27 +29,15 @@
 </template>
 
 <script>
-import data from '../mock/data.json'
-import treeData from '../mock/select-tree.json'
-
 import vResponseTooltip from '../src/lib/v-response-tooltip.vue'
 export default {
   name: 'app',
   components: {
     vResponseTooltip
   },
-  watch: {
-    filterText (val) {
-      this.$refs['filterTree'].$refs['tree'].filter(val)
-    }
-  },
   data () {
     return {
     }
-  },
-  methods: {
-
-
   }
 
 }

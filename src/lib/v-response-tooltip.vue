@@ -8,8 +8,15 @@
   </el-tooltip>
 </template>
 <script>
+import ElTooltip from 'element-ui/lib/Tooltip.js'
+
+import 'element-ui/lib/theme-chalk/Tooltip.css'
+
 export default {
   name: 'v-response-tooltip',
+  components: {
+   ElTooltip
+  },
   props: {
     // 超过显示宽度时是否支持tooltip显示（需要获取元素宽度，故不支持行内样式）
     overWidthDisplay: {
