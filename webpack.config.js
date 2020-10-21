@@ -7,6 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
     filename: 'v-response-tooltip.js',
+    library:'v-response-tooltip',
     libraryTarget:'umd',
     umdNamedDefine:true
   },

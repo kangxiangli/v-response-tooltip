@@ -1,7 +1,7 @@
-import vResponseTooltip from './v-response-tooltip.vue'
+import mycomponent from './v-response-tooltip.vue'
 const vResponseTooltip = {
   install: function(Vue) {
-    Vue.component('vSelectTree', vResponseTooltip)
+    Vue.component('vSelectTree', mycomponent)
   }
 }
 // 这里的判断很重要
