@@ -53,3 +53,29 @@
 | 参数      | 说明                                                | 类型            | 可选值 | 默认值                                           |
 | --------- | --------------------------------------------------- | --------------- | ------ | ---- |
 | over-width-display | 超过显示宽度时是否支持tooltip显示（需要获取元素宽度，故不支持行内样式），该设置如果为false时，按照所有el-tooltip配置                                                     | Boolean          | true/false    | true|
+
+
+### Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your tests
+```
+npm run test
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
