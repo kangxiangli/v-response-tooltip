@@ -1,7 +1,7 @@
 {
   "name": "v-response-tooltip",
   "description": "tooltip 响应式提示框",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "author": "kangxiangli <1140379339@qq.com>",
   "license": "MIT",
   "private": false,
